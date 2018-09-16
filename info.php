@@ -19,7 +19,7 @@
 
   </script>
 <title>orangePi server</title>
-<p id="info" align="center">
+<div id="info" align="center">
     welcome to
     <br>
     opi.nidza.eu.org
@@ -31,11 +31,11 @@
     $result = shell_exec("uptime");
     echo $result;
     ?>
-</p>
-<p id="newinfo">
+</div>
+<div id="newinfo">
   <?php
   $result = shell_exec("uptime");
   echo $result;
   ?>
-</p>
+</div>
 </HTML>
