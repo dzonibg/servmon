@@ -12,10 +12,10 @@
 
   setInterval("reloadF", 2000);
   function reloadF() {
-    $('#info').load(location.href);
+    $('#info').load(location.href + '#newinfo');
 
   }
-  
+
 
   </script>
 <title>orangePi server</title>
@@ -31,5 +31,11 @@
     $result = shell_exec("uptime");
     echo $result;
     ?>
+</p>
+<p id="newinfo">
+  <?php
+  $result = shell_exec("uptime");
+  echo $result;
+  ?>
 </p>
 </HTML>
