@@ -9,6 +9,7 @@
 
 <HTML>
   <script src="http://code.jquery.com/jquery-latest.js">
+  <script type="text/javascript">
 
   setInterval("reloadF", 2000);
   function reloadF() {
