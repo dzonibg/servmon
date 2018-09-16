@@ -10,14 +10,16 @@
 <HTML>
   <script src="http://code.jquery.com/jquery-latest.js">
 
-  $jQuery(document).ready(function($) {
-    $jQuery.setTimeout(function () {
-      $location.reload();
-    }, 1000);
-  });
+  setInterval("reloadF", 2000);
+  function reloadF() {
+    $('#info').load(location.href);
+
+  }
+  
+
   </script>
 <title>orangePi server</title>
-<p align="center">
+<p id="info" align="center">
     welcome to
     <br>
     opi.nidza.eu.org
