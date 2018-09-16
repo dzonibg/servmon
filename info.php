@@ -37,7 +37,7 @@
     Develompent/deployment/production cloud server.
     <br><br>
 </div>
-<div id="info">
+<div id="info" align="center">
 
 </div>
 
