@@ -8,6 +8,13 @@
 ?>
 
 <HTML>
+  <script>
+  $jQuery(document).ready(function($) {
+    $jQuery.setTimeout(function () {
+      $location.reload();
+    }, 1000);
+  });
+  </script>
 <title>orangePi server</title>
 <p align="center">
     welcome to
@@ -23,4 +30,3 @@
     ?>
 </p>
 </HTML>
-
