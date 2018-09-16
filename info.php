@@ -11,9 +11,10 @@
   <script src="http://code.jquery.com/jquery-latest.js"></script>
   <script type="text/javascript">
   function reloadInfo() {
-    $("#info").load("data.php")
+    $("#info").load("data.php");
   }
   setInterval(reloadInfo, 3000);
+  reloadInfo();
   </script>
 <title>orangePi server</title>
 <div id="main" align="center">
