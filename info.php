@@ -13,7 +13,6 @@
   function reloadInfo() {
     $("#info").load("data.php");
   }
-  setInterval('reloadInfo()', 3000);
   reloadInfo();
   </script>
 <title>orangePi server</title>
