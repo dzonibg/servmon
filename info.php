@@ -8,7 +8,8 @@
 ?>
 
 <HTML>
-  <script>
+  <script src="http://code.jquery.com/jquery-latest.js">
+
   $jQuery(document).ready(function($) {
     $jQuery.setTimeout(function () {
       $location.reload();
