@@ -8,35 +8,27 @@
 ?>
 
 <HTML>
-  <script src="http://code.jquery.com/jquery-latest.js">
+  <script src="http://code.jquery.com/jquery-latest.js"></script>
   <script type="text/javascript">
-
-  setInterval("reloadF", 2000);
-  function reloadF() {
-    $('#info').load(location.href + '#newinfo');
-
+  function reloadInfo() {
+    $("#info").load("data.php")
   }
-
-
+  setInterval(reloadInfo, 3000);
   </script>
 <title>orangePi server</title>
-<div id="info" align="center">
+<div id="main" align="center">
     welcome to
     <br>
     opi.nidza.eu.org
     <br>
     Develompent/deployment/production cloud server.
     <br><br>
+</div>
+<div id="info">
 
-    <?php
-    $result = shell_exec("uptime");
-    echo $result;
-    ?>
 </div>
-<div id="newinfo">
-  <?php
-  $result = shell_exec("uptime");
-  echo $result;
-  ?>
-</div>
+
+
+
+
 </HTML>
