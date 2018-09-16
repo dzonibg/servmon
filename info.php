@@ -11,7 +11,7 @@
   <script src="http://code.jquery.com/jquery-latest.js"></script>
   <script type="text/javascript">
   function reloadInfo() {
-    $("#info").load("data.php");
+    $("#info").load("servmon/data.php");
   }
   setInterval(reloadInfo, 3000);
   reloadInfo();
