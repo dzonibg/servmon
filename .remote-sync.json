@@ -10,7 +10,8 @@
   "target": "/var/www/html/servmon",
   "ignore": [
     ".remote-sync.json",
-    ".git/**"
+    ".git/**",
+    ".gitignore"
   ],
   "username": "fedora",
   "keyfile": "C:/Users/Nikola/Documents/awspem.pem",
