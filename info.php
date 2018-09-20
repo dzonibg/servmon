@@ -28,13 +28,15 @@
   });
   </script>
 
-<title>orangePi server</title>
+<title><?php echo shell_exec("hostname"); ?> server</title>
 <div id="main" align="center">
     welcome to
     <br>
-    opi.nidza.eu.org
+    <b><?php echo shell_exec("hostname"); ?></b>
     <br>
-    Develompent/deployment/production cloud server.
+    Part of nidza.eu.org server group.
+    <br><br>
+    stats:
     <br><br>
 </div>
 <div id="info" align="center">
