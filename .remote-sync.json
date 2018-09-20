@@ -1,0 +1,19 @@
+{
+  "logger": {
+    "title": "Remote Sync"
+  },
+  "uploadOnSave": true,
+  "useAtomicWrites": false,
+  "deleteLocal": false,
+  "hostname": "aws.nidza.eu.org",
+  "port": "22",
+  "target": "/var/www/html/servmon",
+  "ignore": [
+    ".remote-sync.json",
+    ".git/**"
+  ],
+  "username": "fedora",
+  "keyfile": "C:/Users/Nikola/Documents/awspem.pem",
+  "watch": [],
+  "transport": "scp"
+}
