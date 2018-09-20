@@ -35,6 +35,7 @@
     <b><?php echo shell_exec("hostname"); ?></b>
     <br>
     Part of nidza.eu.org server group.
+    RAAAAAAAA
     <br><br>
     stats:
     <br><br>
