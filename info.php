@@ -34,8 +34,8 @@
     <br>
     <b><?php echo shell_exec("hostname"); ?></b>
     <br>
-    Part of nidza.eu.org server group.
-    RAAAAAAAA
+    <?php echo shell_exec("sudo awk '/mmcblk0p1/ { print $10 * 512 /1024/1024}' /proc/diskstats"); echo " MB written since last boot." ?>
+    Part of nikola.eu.org server group.
     <br><br>
     stats:
     <br><br>
